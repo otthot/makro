@@ -10,7 +10,7 @@ app.use('/page', pageRouter);
 
 
 //definerer port
-const PORT = 4001;
+const PORT = 3000;
 
 //sætter public som static mappe
 app.use(express.static(path.join(__dirname, 'public')));
